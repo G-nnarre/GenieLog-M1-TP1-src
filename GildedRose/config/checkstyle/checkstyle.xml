@@ -92,7 +92,7 @@
         <!-- See http://checkstyle.sf.net/config_import.html -->
         <!-- <module name="AvoidStarImport"/> -->
         <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
-        <module name="RedundantImport"/>
+        <!--<module name="RedundantImport"/>-->
         <module name="UnusedImports"/>
 
 
@@ -169,7 +169,7 @@
         </module>
         <module name="NoClone"/>
         <module name="NoFinalizer"/>
-        <module name="RedundantThrows"/>
+        <!--<module name="RedundantThrows"/>-->
         <module name="OneStatementPerLine"/>
         <module name="OverloadMethodsDeclarationOrder"/>
         <module name="PackageDeclaration"/>
