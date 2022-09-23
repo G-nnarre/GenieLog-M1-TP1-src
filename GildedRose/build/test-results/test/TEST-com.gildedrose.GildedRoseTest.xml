@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2022-09-23T11:53:43" hostname="mathieu-Swift-SF314-56" time="0.107">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2022-09-23T13:01:11" hostname="mathieu-Swift-SF314-56" time="0.046">
   <properties/>
-  <testcase name="test aged brie item for quality augmentation if at max quality" classname="com.gildedrose.GildedRoseTest" time="0.029"/>
+  <testcase name="test aged brie item for quality augmentation if at max quality" classname="com.gildedrose.GildedRoseTest" time="0.012"/>
   <testcase name="test lambda item for quality reduction sellin past" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 5 day before at max" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 5 day before at max" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <testcase name="test sulfuras item for quality sellin negative" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 15 day before" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="test lambda item for quality reduction" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="test lambda item for quality reduction" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 6 day before" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="test lambda item for quality reduction sellin past" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality after the concert" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 5 day before" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="test aged brie item for quality augmentation over sellin" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.022"/>
-  <testcase name="test aged brie item for quality augmentation over sellin but at max quality" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 10 day before" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 10 day before" classname="com.gildedrose.GildedRoseTest" time="0.004"/>
-  <testcase name="test aged brie item for quality augmentation" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <testcase name="test sulfuras item for quality" classname="com.gildedrose.GildedRoseTest" time="0.004"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 5 day before" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test aged brie item for quality augmentation over sellin" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.012"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 11 day before" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test aged brie item for quality augmentation over sellin but at max quality" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 10 day before" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="test Backstage passes to a TAFKAL80ETC concert item for quality augmentation 10 day before" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test aged brie item for quality augmentation" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="test sulfuras item for quality" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
