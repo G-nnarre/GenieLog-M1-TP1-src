@@ -2,21 +2,34 @@
 
 public class Item {
 
+
+    public static final String AGED_BRIE = &quot;Aged Brie&quot;;
+
     public String name;
 
     public int sellIn;
 
     public int quality;
 
-<span class="nc" id="L11">    public Item(String name, int sellIn, int quality) {</span>
-<span class="nc" id="L12">        this.name = name;</span>
-<span class="nc" id="L13">        this.sellIn = sellIn;</span>
-<span class="nc" id="L14">        this.quality = quality;</span>
-<span class="nc" id="L15">    }</span>
+<span class="fc" id="L14">    public Item(String name, int sellIn, int quality) {</span>
+<span class="fc" id="L15">        this.name = name;</span>
+<span class="fc" id="L16">        this.sellIn = sellIn;</span>
+<span class="fc" id="L17">        this.quality = quality;</span>
+<span class="fc" id="L18">    }</span>
 
-   @Override
-   public String toString() {
-<span class="nc" id="L19">        return this.name + &quot;, &quot; + this.sellIn + &quot;, &quot; + this.quality;</span>
+    static void addQuality(Item item, int i) {
+<span class="fc" id="L21">        item.quality += i;</span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">        if (item.quality &gt; 50) {</span>
+<span class="fc" id="L23">            item.quality = 50;</span>
+        }
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        if (item.quality &lt; 0) {</span>
+<span class="fc" id="L26">            item.quality = 0;</span>
+        }
+<span class="fc" id="L28">    }</span>
+
+    @Override
+    public String toString() {
+<span class="fc" id="L32">        return this.name + &quot;, &quot; + this.sellIn + &quot;, &quot; + this.quality;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

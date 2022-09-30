@@ -2,6 +2,9 @@ package com.gildedrose;
 
 public class Item {
 
+
+    public static final String AGED_BRIE = "Aged Brie";
+
     public String name;
 
     public int sellIn;
@@ -14,8 +17,18 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
-   public String toString() {
+    static void addQuality(Item item, int i) {
+        item.quality += i;
+        if (item.quality > 50) {
+            item.quality = 50;
+        }
+        if (item.quality < 0) {
+            item.quality = 0;
+        }
+    }
+
+    @Override
+    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
 }

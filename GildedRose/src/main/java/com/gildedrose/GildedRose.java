@@ -9,47 +9,43 @@ class GildedRose {
 
     public void updateQuality() {
         for (Item item:this.items) {
+            item.sellIn--;
             switch (item.name) {
                 case "Aged Brie":
-                    if (item.quality < 50) {
-                        item.quality = item.quality + 1;
-                    }
                     if (item.sellIn < 0) {
-                        if (item.quality < 50) {
-                            item.quality = item.quality + 1;
-                        }
+                        Item.addQuality(item, 2);
+                    } else {
+                        Item.addQuality(item, 1);
                     }
                     break;
                 case "Backstage passes to a TAFKAL80ETC concert":
-                    if (item.quality < 50) {
-                        item.quality = item.quality + 1;
-                    }
-                    if (item.sellIn < 11) {
-                        if (item.quality < 50) {
-                            item.quality = item.quality + 1;
-                        }
+                    int add = 1;
+
+                    if (item.sellIn < 10) {
+                        add++;
                     }
 
-                    if (item.sellIn < 6) {
-                        if (item.quality < 50) {
-                            item.quality = item.quality + 1;
-                        }
+                    if (item.sellIn < 5) {
+                        add++;
                     }
-                    if (item.sellIn < 0) {
+
+                    if (item.sellIn > 0) {
+                        Item.addQuality(item, add);
+                    } else {
                         item.quality = 0;
                     }
+
                     break;
                 case "Sulfuras, Hand of Ragnaros":break;
                 default:
-                    if (item.quality > 0) {
-                        item.quality = item.quality - 1;
-                    }
-                    item.sellIn = item.sellIn - 1;
+                    int sub = -1;
                     if (item.sellIn < 0) {
-                        if (item.quality > 0) {
-                            item.quality = item.quality - 1;
-                        }
+                        sub--;
                     }
+                    /*if (item.name.contains("Conjured")){
+                        sub = sub * 2;
+                    }*/
+                    Item.addQuality(item, sub);
 
                     break;
             }
