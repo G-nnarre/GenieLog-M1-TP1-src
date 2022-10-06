@@ -45,6 +45,8 @@ class GildedRoseTest {
           ,"Backstage passes to a TAFKAL80ETC concert,5,2,5"
           ,"Backstage passes to a TAFKAL80ETC concert,5,49,50"
           ,"Backstage passes to a TAFKAL80ETC concert,-1,50,0"
+          ,"Conjured,3,4,2"
+          ,"Conjured,-1,10,6"
   })
   void testGeneral(String itemName,int sellin,int quality,int expected){
     Item element = new Item(itemName, sellin, quality);

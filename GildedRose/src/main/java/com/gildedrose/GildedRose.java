@@ -37,14 +37,19 @@ class GildedRose {
 
                     break;
                 case "Sulfuras, Hand of Ragnaros":break;
+                case "Conjured":
+                    int substract = -2;
+                    if (item.sellIn < 0) {
+                        substract*=2;
+                    }
+                    Item.addQuality(item, substract);
+
+                    break;
                 default:
                     int sub = -1;
                     if (item.sellIn < 0) {
                         sub--;
                     }
-                    /*if (item.name.contains("Conjured")){
-                        sub = sub * 2;
-                    }*/
                     Item.addQuality(item, sub);
 
                     break;
