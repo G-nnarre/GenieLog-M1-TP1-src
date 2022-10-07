@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2022-10-06T12:35:16" hostname="mathieu-Swift-SF314-56" time="0.209">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2022-10-07T09:29:19" hostname="mathieu-Swift-SF314-56" time="0.186">
   <properties/>
-  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.023"/>
-  <testcase name="[1] foo, 0, 0, 0" classname="com.gildedrose.GildedRoseTest" time="0.021"/>
+  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.02"/>
+  <testcase name="[1] 48, 1, 49" classname="com.gildedrose.GildedRoseTest" time="0.017"/>
+  <testcase name="[2] 2, -1, 1" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="[1] foo, 0, 0, 0" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
   <testcase name="[2] foo, -3, 2, 0" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[3] foo, 1, 2, 1" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[4] Aged Brie, 2, 0, 1" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="[3] foo, 1, 2, 1" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="[4] Aged Brie, 1, 0, 1" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[5] Aged Brie, -1, 0, 2" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[6] Aged Brie, -1, 49, 50" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="[6] Aged Brie, -1, 49, 50" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[7] Aged Brie, 2, 50, 50" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[8] Sulfuras, Hand of Ragnaros, 2, 80, 80" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[9] Sulfuras, Hand of Ragnaros, -4, 80, 80" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[10] Backstage passes to a TAFKAL80ETC concert, 15, 2, 3" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="[10] Backstage passes to a TAFKAL80ETC concert, 15, 2, 3" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
   <testcase name="[11] Backstage passes to a TAFKAL80ETC concert, 11, 2, 3" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[12] Backstage passes to a TAFKAL80ETC concert, 10, 2, 4" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[13] Backstage passes to a TAFKAL80ETC concert, 10, 49, 50" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="[14] Backstage passes to a TAFKAL80ETC concert, 6, 2, 4" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[15] Backstage passes to a TAFKAL80ETC concert, 5, 2, 5" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[16] Backstage passes to a TAFKAL80ETC concert, 5, 49, 50" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
-  <testcase name="[17] Backstage passes to a TAFKAL80ETC concert, -1, 50, 0" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[18] Conjured, 3, 4, 2" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="[19] Conjured, -1, 10, 6" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="[15] Backstage passes to a TAFKAL80ETC concert, 5, 2, 5" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="[16] Backstage passes to a TAFKAL80ETC concert, 1, 2, 5" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="[17] Backstage passes to a TAFKAL80ETC concert, 5, 49, 50" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="[18] Backstage passes to a TAFKAL80ETC concert, -1, 50, 0" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="[19] Conjured, 1, 4, 2" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="[20] Conjured, -1, 10, 6" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="Test the toString" classname="com.gildedrose.GildedRoseTest" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

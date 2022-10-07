@@ -31,7 +31,7 @@ class GildedRoseTest {
   @CsvSource({"foo,0,0,0"
           ,"foo,-3,2,0"
           ,"foo,1,2,1"
-          ,"Aged Brie,2,0,1"
+          ,"Aged Brie,1,0,1"
           ,"Aged Brie,-1,0,2"
           ,"Aged Brie,-1,49,50"
           ,"Aged Brie,2,50,50"
@@ -43,9 +43,10 @@ class GildedRoseTest {
           ,"Backstage passes to a TAFKAL80ETC concert,10,49,50"
           ,"Backstage passes to a TAFKAL80ETC concert,6,2,4"
           ,"Backstage passes to a TAFKAL80ETC concert,5,2,5"
+          ,"Backstage passes to a TAFKAL80ETC concert,1,2,5"
           ,"Backstage passes to a TAFKAL80ETC concert,5,49,50"
           ,"Backstage passes to a TAFKAL80ETC concert,-1,50,0"
-          ,"Conjured,3,4,2"
+          ,"Conjured,1,4,2"
           ,"Conjured,-1,10,6"
   })
   void testQualityGeneral(String itemName,int sellin,int quality,int expected){
@@ -56,8 +57,8 @@ class GildedRoseTest {
   }
   @ParameterizedTest
   @CsvSource({
-          "49,1,50"
-          ,"1,-1,0"
+          "48,1,49"
+          ,"2,-1,1"
   })
   void testStaticQualityUpdate(int quality,int update,int expected){
     Item element = new Item("testItem",5,quality);
