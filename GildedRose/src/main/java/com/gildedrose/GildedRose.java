@@ -13,9 +13,9 @@ class GildedRose {
             switch (item.name) {
                 case "Aged Brie":
                     if (item.sellIn < 0) {
-                        Item.addQuality(item, 2);
+                        Item.updateQuality(item, 2);
                     } else {
-                        Item.addQuality(item, 1);
+                        Item.updateQuality(item, 1);
                     }
                     break;
                 case "Backstage passes to a TAFKAL80ETC concert":
@@ -30,7 +30,7 @@ class GildedRose {
                     }
 
                     if (item.sellIn > 0) {
-                        Item.addQuality(item, add);
+                        Item.updateQuality(item, add);
                     } else {
                         item.quality = 0;
                     }
@@ -42,7 +42,7 @@ class GildedRose {
                     if (item.sellIn < 0) {
                         substract*=2;
                     }
-                    Item.addQuality(item, substract);
+                    Item.updateQuality(item, substract);
 
                     break;
                 default:
@@ -50,7 +50,7 @@ class GildedRose {
                     if (item.sellIn < 0) {
                         sub--;
                     }
-                    Item.addQuality(item, sub);
+                    Item.updateQuality(item, sub);
 
                     break;
             }

@@ -48,10 +48,20 @@ class GildedRoseTest {
           ,"Conjured,3,4,2"
           ,"Conjured,-1,10,6"
   })
-  void testGeneral(String itemName,int sellin,int quality,int expected){
+  void testQualityGeneral(String itemName,int sellin,int quality,int expected){
     Item element = new Item(itemName, sellin, quality);
     GildedRose app = new GildedRose(new Item[] {element});
     app.updateQuality();
     assertThat(element.quality, is(expected));
+  }
+  @ParameterizedTest
+  @CsvSource({
+          "49,1,50"
+          ,"1,-1,0"
+  })
+  void testStaticQualityUpdate(int quality,int update,int expected){
+    Item element = new Item("testItem",5,quality);
+    Item.updateQuality(element,update);
+    assertThat(element.quality,is(expected));
   }
 }
